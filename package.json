@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/jackBlackMa/functionalProgramming#readme",
   "dependencies": {
     "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.2.1"
   }
 }
