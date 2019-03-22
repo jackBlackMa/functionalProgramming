@@ -1,4 +1,4 @@
-var path = require('pach');
+var path = require('path');
 
 var config = {
     entry: {
@@ -6,9 +6,9 @@ var config = {
     },
     output: {
         path:path.join(__dirname,'./dist'),
-        publickPath: '/dist/',
+        publicPath: '/dist/',
         filename: 'main.js',
     }
 }
 
-modules.exports = config;
+module.exports = config;
